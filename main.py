@@ -1,14 +1,3 @@
-# create a https://arxiv.org/ webscrapper.
-# 1. It asks the user what do they want to search.
-# 2. after user enter their query
-# 3. the scrapper searches for all the latest researches available
-# 4. It shows user all the results it founds
-# 5. then it asks which latest research paper they want to download.
-# 6. it then downloads the latest available pdf file of the research.
-# 7. then it asks if the user wants to continue
-# 8. If yes continue and ask what do they want to search
-# 9. If not quit
-
 import requests
 from bs4 import BeautifulSoup
 
